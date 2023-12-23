@@ -1,3 +1,5 @@
+import { ModeToggle } from "@/components/ui/toggel-mode";
+import{Github,Linkedin} from "lucide-react"
 import Link from "next/link";
 
 export default function Navbar() {
@@ -10,8 +12,11 @@ export default function Navbar() {
                     <Link href="/certification">Certification</Link>
                     <Link href="/about">About</Link>
                 </nav>
-                <div>
-                    ICON
+                <div className="flex  justify-end items-center   max-w-2xl px-4 sm:px-6 lg:max-w-7xl gap-12">
+                  <Link href="https://github.com/Ajmalniz" target="_blank"> <Github /></Link>  
+                    <Link href="https://www.linkedin.com/in/front-end-developer-headless-cms-ai-blockchain/" target="_blank"><Linkedin /></Link>
+                    <ModeToggle />
+                    
                 </div>
             
             </div>
