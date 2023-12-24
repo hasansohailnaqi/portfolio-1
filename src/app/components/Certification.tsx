@@ -21,7 +21,7 @@ export const dynamic = "force-dynamic";
 export default async function Certification() {
   const projects= await getData()
   return (
-    <div>
+    <div className='mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl'>
     
     <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Certifications</h2>
 
