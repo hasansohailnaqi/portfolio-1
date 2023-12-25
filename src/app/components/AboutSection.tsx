@@ -21,7 +21,7 @@ const skills = [
 
 const AboutSection = () => {
   return (
-    <section id="about">
+    <section className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me

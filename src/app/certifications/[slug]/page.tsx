@@ -24,7 +24,7 @@ async function getData(slug: string) {
     const project = await getData(params.slug)
     
   return (
-     <div>
+     <div className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <div className="text-lg text-gray-700 mt-5 gap-4 px-4 py-4 bg-gray-100">
       <PortableText value={project.content} />
     </div>
