@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/ui/toggel-mode"
 import React from "react"
 import {
   AiOutlineGithub,  
@@ -30,7 +31,7 @@ const Footer = () => {
               size={30}
             />
           </a>
-         
+         <ModeToggle />
         </div>
       </div>
     </footer>

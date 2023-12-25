@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 const skills = [
   { skill: "HTML" },
@@ -80,6 +81,13 @@ const AboutSection = () => {
             
           </div>
         </div>
+       <div className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl "> 
+        <Link href="/contact"  
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+             >
+            Contact Us
+            </Link>
+      </div>
       </div>
     </section>
   )
